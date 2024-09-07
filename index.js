@@ -35,9 +35,9 @@ client.on('ready', async () => {
       id: Discord.getUUID(),
     })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66dd1f1d&is=66dbcd9d&hm=6da45c8e1253a47249747061369cecd3afd94ad9627ec21b3139672997218ef6&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
+    .setAssetsLargeImage('https://tenor.googleapis.com/v2/media?id=2232437380951958796&format=optimizedgif&client_key=tenor_web&appversion=browser-r20240903-1&access_token=ya29.a0AcM612xVDjpdQ3gjn-sdYYzrSdwTy8b-MrZbjR36m7BdxPdRQZosuAFtaOvZLyTqwSXP4uJb9ursuFKU2-QsJDBBrth4JKsybMGszeuAv9ag2OE89F1BosrM8EhX-vDdNSJcM--gfMjQU7MOXkVHsHXBYfnlm6_jowaCgYKAQASARMSFQHGX2Mi96ns4u36RdvPPj_yf8lg1w0169&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8') //You can put links in tenor or discord and etc
     .setAssetsLargeText('Battleground Mobile India') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1281279281820864563/discord-verification-verification.png?ex=66dd1e11&is=66dbcc91&hm=9387d830ac8f3b4c9b5efdc67daa2630daf63e9433c49bda45db92976df02768&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
+    .setAssetsSmallImage('https://tenor.googleapis.com/v2/media?id=15310629048740341586&format=optimizedgif&client_key=tenor_web&appversion=browser-r20240903-1&access_token=ya29.a0AcM612xVDjpdQ3gjn-sdYYzrSdwTy8b-MrZbjR36m7BdxPdRQZosuAFtaOvZLyTqwSXP4uJb9ursuFKU2-QsJDBBrth4JKsybMGszeuAv9ag2OE89F1BosrM8EhX-vDdNSJcM--gfMjQU7MOXkVHsHXBYfnlm6_jowaCgYKAQASARMSFQHGX2Mi96ns4u36RdvPPj_yf8lg1w0169&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8') //You can put links in tenor or discord and etc
     .setAssetsSmallText('BGMI') //Text when you hover the Small image
     .addButton('My Server', 'https://discord.gg/SVqQYEMp8m')
     .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080');
