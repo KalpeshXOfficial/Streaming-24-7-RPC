@@ -4,10 +4,7 @@ const client = new Discord.Client({
   checkUpdate: false
 });
 
-const keepAlive = require('./server.js');
-keepAlive();
-
-require('dotenv').config(); // Make sure you have this line to use environment variables
+require('dotenv').config();
 
 function formatTime() {
   const date = new Date();
@@ -24,11 +21,11 @@ client.on('ready', async () => {
   console.clear();
   console.log(`${client.user.tag} - Successfully Logged On!`);
 
-  const activityType = process.env.ACTIVITY_TYPE || 'PLAYING'; // Default to 'PLAYING' if not set
+  const activityType = process.env.ACTIVITY_TYPE || 'PLAYING';
 
   const r = new Discord.RichPresence()
     .setApplicationId('534203414247112723')
-    .setType(activityType) // Use the activity type from the environment variable
+    .setType(activityType)
     .setURL('https://www.youtube.com/@Kalpesh-cc5wn')
     .setState('Playing With Friends')
     .setName('Battlegrounds Mobile India')
@@ -47,9 +44,7 @@ client.on('ready', async () => {
     .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080');
 
   client.user.setActivity(r);
-  client.user.setPresence({
-    status: "idle"
-  });
+  client.user.setPresence({ status: "idle" });
 
   let prevTime = null;
   setInterval(() => {
@@ -63,5 +58,4 @@ client.on('ready', async () => {
   }, 1000);
 });
 
-const mySecret = process.env['TOKEN'];
-client.login(mySecret);
+client.login(process.env.TOKEN);
