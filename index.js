@@ -23,22 +23,22 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - Successfully Logged On!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1280906241501036544')
+    .setApplicationId('534203414247112723')
     .setType('PLAYING') //STREAMING, PLAYING, LISTENING
     .setURL('https://www.youtube.com/@Kalpesh-cc5wn') //Must be a youtube video link 
     .setState('Playing With Friends')
     .setName('Battlegrounds Mobile India')
     .setDetails(`BGMI Playing [${formatTime()}]`)
     .setParty({
-      max: 8130,
-      current: 973,
-      id: Discord.getUUID(),
+        max: 8130,
+        current: 973,
+        id: Discord.getUUID(),
     })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66dd1f1d&is=66dbcd9d&hm=6da45c8e1253a47249747061369cecd3afd94ad9627ec21b3139672997218ef6&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
-    .setAssetsLargeText('Battlegrounds Mobile India') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1281279281820864563/discord-verification-verification.png?ex=66dd1e11&is=66dbcc91&hm=9387d830ac8f3b4c9b5efdc67daa2630daf63e9433c49bda45db92976df02768&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
-    .setAssetsSmallText('BGMI') //Text when you hover the Small image
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66db24dd&is=66d9d35d&hm=0693f1efca4b68772fff09647d93e6f185255a86b142077c6eec4c3c6f4e88a0&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
+    .setAssetsLargeText('Cyber X Official') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1280947566649016470/verified-verificado.gif?ex=66da97a2&is=66d94622&hm=3b97a8f94d081512578ebb8a786d85014bb043dc72f466e010fe1c9c9cc81bd4&=') //You can put links in tenor or discord and etc
+    .setAssetsSmallText('CXO') //Text when you hover the Small image
     .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080')
     .addButton('My WebSite', 'https://cyberfoxofficial.blogspot.com');
 
