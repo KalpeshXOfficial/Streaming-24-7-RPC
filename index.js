@@ -36,11 +36,11 @@ client.on('ready', async () => {
     })
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66dd1f1d&is=66dbcd9d&hm=6da45c8e1253a47249747061369cecd3afd94ad9627ec21b3139672997218ef6&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
-    .setAssetsLargeText('Cyber X Official') //Text when you hover the Large image
+    .setAssetsLargeText('Battleground Mobile India') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1281279281820864563/discord-verification-verification.png?ex=66dd1e11&is=66dbcc91&hm=9387d830ac8f3b4c9b5efdc67daa2630daf63e9433c49bda45db92976df02768&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
-    .setAssetsSmallText('CXO') //Text when you hover the Small image
-    .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080')
-    .addButton('My WebSite', 'https://cyberfoxofficial.blogspot.com');
+    .setAssetsSmallText('BGMI') //Text when you hover the Small image
+    .addButton('My Server', 'https://discord.gg/SVqQYEMp8m')
+    .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
