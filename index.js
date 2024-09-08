@@ -35,9 +35,9 @@ client.on('ready', async () => {
       id: Discord.getUUID(),
     })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66dd1f1d&is=66dbcd9d&hm=6da45c8e1253a47249747061369cecd3afd94ad9627ec21b3139672997218ef6&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc
+    .setAssetsLargeImage('https://tenor.com/view/bgmi-gif-2232437380951958796') //You can put links in tenor or discord and etc
     .setAssetsLargeText('Battleground Mobile India') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1280947566649016470/verified-verificado.gif?ex=66dd3aa2&is=66dbe922&hm=77e08f5d759ca4a8e943d49ff06aee01814001cdf1e49f362d3e4871f0f67206&=') //You can put links in tenor or discord and etc
+    .setAssetsSmallImage('https://tenor.com/view/verify-gif-7940981722566498000') //You can put links in tenor or discord and etc
     .setAssetsSmallText('BGMI') //Text when you hover the Small image
     .addButton('My Server', 'https://discord.gg/SVqQYEMp8m')
     .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080');
