@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 const Discord = require('discord.js-selfbot-v13');
-const request = require('request');
+const axios = require('axios');
 const config = require('./config.json');
 
 const client = new Discord.Client({
@@ -70,23 +70,24 @@ client.on('ready', async () => {
   }, 1000);
 
   setInterval(() => {
-    request({
-      method: 'PATCH',
-      url: 'https://discordapp.com/api/v6/users/@me/settings',
-      json: true,
+    axios.patch('https://discordapp.com/api/v6/users/@me/settings', {
+      custom_status: {
+        text: statuses[status_index++ % statuses.length],
+        expires_at: null
+      }
+    }, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.305 Chrome/69.0.3497.128 Electron/4.0.8 Safari/537.36',
         'Authorization': mySecret,
         'Content-Type': 'application/json'
-      },
-      body: {
-        'custom_status': {
-          'text': statuses[status_index++ % statuses.length],
-          'expires_at': null
-        }
       }
-    });
-    console.log('Status updated');
+    })
+      .then(() => {
+        console.log('Status updated');
+      })
+      .catch(err => {
+        console.error('Error updating status:', err);
+      });
   }, config.time);
 });
 
