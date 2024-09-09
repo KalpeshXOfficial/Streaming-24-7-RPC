@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1282720426212069386')
     .setType('STREAMING') //STREAMING, PLAYING, LISTENING
-    .setURL('https://www.twitch.tv/dota2ti') // Must be a twitch streaming link for STREAMING status otherwise if you put youtube then this will not work
+    .setURL('https://www.twitch.tv/daemonaj') // Must be a twitch streaming link for STREAMING status otherwise if you put youtube then this will not work
     .setState('Playing With Friends')
     .setName('Battlegrounds Mobile India')
     .setDetails(`BGMI Playing [${formatTime()}]`)
