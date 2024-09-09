@@ -35,9 +35,9 @@ client.on('ready', async () => {
       id: Discord.getUUID(),
     })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('profile') //You can put links in tenor or discord and etc
+    .setAssetsLargeImage('./images/bgmi.png') //You can put links in tenor or discord and etc
     .setAssetsLargeText('Battleground Mobile India') //Text when you hover the Large image
-    .setAssetsSmallImage('pfp') //You can put links in tenor or discord and etc
+    .setAssetsSmallImage('./images/verify.gif') //You can put links in tenor or discord and etc
     .setAssetsSmallText('BGMI') //Text when you hover the Small image
     .addButton('My Server', 'https://discord.gg/SVqQYEMp8m')
     .addButton('My Profile', 'https://www.instagram.com/kalpesh.___3080');
