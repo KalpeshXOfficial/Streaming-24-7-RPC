@@ -23,8 +23,8 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - Successfully Logged On!`);
 
   const r = new Discord.RichPresence()
-  .setApplicationId('1282720426212069386')
-  .setType('STREAMING') //STREAMING, PLAYING, LISTENING, WATCHING
+  .setApplicationId('1280906241501036544')
+  .setType('STREAMING') //STREAMING, PLAYING, LISTENING
   .setURL('https://www.twitch.tv/daemonaj') // Twitch link required for STREAMING type
   .setState('Streaming with Squad') // Custom status message
   .setName('Battlegrounds Mobile India') // Custom game name
