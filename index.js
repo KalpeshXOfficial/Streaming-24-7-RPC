@@ -23,8 +23,8 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - Successfully Logged On!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('534203414247112723')
-    .setType('LISTENING') //STREAMING, PLAYING, LISTENING
+    .setApplicationId('1282720426212069386')
+    .setType('STREAMING') //STREAMING, PLAYING, LISTENING
     .setURL('https://www.twitch.tv/dota2ti') //Must be a youtube video link 
     .setState('Playing With Friends')
     .setName('Battlegrounds Mobile India')
