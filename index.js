@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('534203414247112723')
     .setType('LISTENING') //STREAMING, PLAYING, LISTENING
-    .setURL('https://www.youtube.com/@Kalpesh-cc5wn') //Must be a youtube video link 
+    .setURL('https://www.twitch.tv/dota2ti') //Must be a youtube video link 
     .setState('Playing With Friends')
     .setName('Battlegrounds Mobile India')
     .setDetails(`BGMI Playing [${formatTime()}]`)
