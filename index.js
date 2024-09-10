@@ -35,9 +35,9 @@ client.on('ready', async () => {
       id: Discord.getUUID()
     })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66dfc21d&is=66de709d&hm=522e9c0b8070d61c4dc2fd22a122006c3f97c4341bcdda3e69ae09a5727328df&=&format=webp&quality=lossless')
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66e1139d&is=66dfc21d&hm=a52bacc6431499ea488bb409717b6b6e6d1bb85a916500edc563bb4d10349fd5&=&format=webp&quality=lossless')
     .setAssetsLargeText('Battleground Mobile India')
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1280947566649016470/verified-verificado.gif?ex=66dfdda2&is=66de8c22&hm=e237c83dcd3fa1cd3eef2910c897b97d9766472c415f043325ebaa55e0abb977&=')
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1280947566649016470/verified-verificado.gif?ex=66e12f22&is=66dfdda2&hm=797df7b42d493e1aa50596ddb4dab1a76bc5034800cd80f96d08c3e592df4298&=')
     .setAssetsSmallText('Verified')
     .addButton('Join My Discord', 'https://discord.gg/SVqQYEMp8m')
     .addButton('Follow My Instagram', 'https://www.instagram.com/kalpesh.___3080');
